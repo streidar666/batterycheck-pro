@@ -1,2 +1,17 @@
-# batterycheck-pro
-Strumento web per il controllo e report delle batterie FNC da 1.2V. Permette di inserire, salvare, analizzare e stampare i dati delle celle.
+# BatteryCheck Pro
+
+Web app React + TypeScript per gestione test batterie industriali con supporto offline (PWA), dashboard KPI e dettaglio celle con input stile Excel.
+
+## Avvio
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
