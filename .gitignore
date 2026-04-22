@@ -1,18 +1,16 @@
-```
-# Dependencies
-node_modules/
+```python
+# Excel files
+*.xlsx
 
-# Build outputs
-dist/
-build/
-*.js
-*.ts
+# Python compiled files
+*.pyc
+__pycache__/
 
 # Logs and temp files
 *.log
 *.tmp
 
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
@@ -21,10 +19,14 @@ build/
 .vscode/
 .idea/
 
-# OS
-.DS_Store
-Thumbs.db
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
 
-# TypeScript
-*.tsbuildinfo
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
 ```
